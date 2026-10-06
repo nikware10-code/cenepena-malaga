@@ -211,6 +211,7 @@ const PRODUCTS=[
   {"id": "aquarius_naranja_lata", "n": "Aquarius Naranja (lata)", "c": "bebidas", "f": "Caja 24 x 330 ml", "d": "Bebida refrescante Aquarius de naranja en lata.", "img": "img/aquarius_naranja_lata.jpg"},
   {"id": "nestea_limon_lata", "n": "Nestea Limón (lata)", "c": "bebidas", "f": "Caja 24 x 330 ml", "d": "Té frío Nestea sabor limón en lata.", "img": "img/nestea_limon_lata.jpg"},
   {"id": "nestea_maracuya_lata", "n": "Nestea Té Verde Maracuyá (lata)", "c": "bebidas", "f": "Caja 24 x 330 ml", "d": "Té verde frío Nestea sabor maracuyá en lata.", "img": "img/nestea_maracuya_lata.jpg"},
+  {"id": "maltin_polar_lata", "n": "Maltín Polar (lata)", "c": "bebidas", "f": "Caja 24 x 355 ml", "d": "Bebida de malta sin alcohol Maltín Polar en lata.", "img": "img/maltin_polar_lata.jpg"},
   {"id": "bombilla_corta_kunatai", "n": "Bombilla Corta Kuñataí", "c": "menaje", "f": "Unidad", "d": "Bombilla corta para mate o tereré.", "img": "img/bombilla_corta_kunatai.jpg"},
   {"id": "bombilla_larga_kunatai", "n": "Bombilla Larga Kuñataí", "c": "menaje", "f": "Unidad", "d": "Bombilla larga para mate o tereré.", "img": "img/bombilla_larga_kunatai.jpg"},
 ];
