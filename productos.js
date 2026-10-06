@@ -2,7 +2,7 @@
 // Productos sin foto usan img/sin-foto.jpg: al tener la foto, subirla como img/<id>.jpg y cambiar su "img".
 const WA="34644511533";
 
-const CATS=[["harinas", "Almidón y harinas"], ["granos", "Granos"], ["pastas", "Pasta"], ["yerba", "Yerba mate"], ["platanitos", "Platanitos y snacks"], ["especias", "Especias, hierbas y condimentos"], ["salsas", "Salsas"], ["dulces", "Galletas y dulces"], ["frutos", "Frutos secos"], ["menaje", "Menaje"]];
+const CATS=[["harinas", "Almidón y harinas"], ["granos", "Granos"], ["pastas", "Pasta"], ["yerba", "Yerba mate"], ["platanitos", "Platanitos y snacks"], ["especias", "Especias, hierbas y condimentos"], ["salsas", "Salsas"], ["dulces", "Galletas y dulces"], ["frutos", "Frutos secos"], ["cervezas", "Cervezas y bebidas con alcohol"], ["bebidas", "Refrescos y bebidas"], ["menaje", "Menaje"]];
 
 const PRODUCTS=[
   {"id": "almidon_agrio_codipsa_25kg", "n": "Almidón Agrio Codipsa", "c": "harinas", "f": "Saco 25 kg", "d": "Almidón agrio de mandioca Codipsa, formato saco.", "img": "img/almidon_agrio_codipsa_25kg.jpg"},
@@ -197,6 +197,20 @@ const PRODUCTS=[
   {"id": "kai_ladrillo_molido_400g", "n": "Ka'i Ladrillo Molido Sabores de Areguá", "c": "frutos", "f": "400 g", "d": "Dulce de maní Ka'i Ladrillo, molido.", "img": "img/kai_ladrillo_molido_400g.jpg"},
   {"id": "mani_molido_barrerena", "n": "Maní Molido La Barrereña", "c": "frutos", "f": "8 x 350 g", "d": "Maní molido La Barrereña.", "img": "img/sin-foto.jpg"},
   {"id": "manteca_mani_barrerena", "n": "Manteca de Maní La Barrereña", "c": "frutos", "f": "12 x 400 g", "d": "Manteca de maní La Barrereña.", "img": "img/sin-foto.jpg"},
+  {"id": "heineken_botella_33cl", "n": "Cerveza Heineken (botella)", "c": "cervezas", "f": "Caja 24 x 33 cl", "d": "Cerveza lager Heineken en botella de 33 cl.", "img": "img/heineken_botella_33cl.jpg"},
+  {"id": "heineken_lata_33cl", "n": "Cerveza Heineken (lata)", "c": "cervezas", "f": "Caja 24 x 33 cl", "d": "Cerveza lager Heineken en lata de 33 cl.", "img": "img/heineken_lata_33cl.jpg"},
+  {"id": "heineken_pack6_25cl", "n": "Cerveza Heineken Botellín 25 cl", "c": "cervezas", "f": "Caja 4 packs x 6 x 25 cl", "d": "Cerveza lager Heineken en botellín, packs de 6.", "img": "img/heineken_pack6_25cl.jpg"},
+  {"id": "aguardiente_antioqueno_750ml", "n": "Aguardiente Antioqueño", "c": "cervezas", "f": "Caja 12 x 750 ml", "d": "Aguardiente anisado colombiano Antioqueño.", "img": "img/aguardiente_antioqueno_750ml.jpg"},
+  {"id": "aguardiente_antioqueno_amarillo_real", "n": "Aguardiente Antioqueño Amarillo Real", "c": "cervezas", "f": "Caja 12 x 750 ml", "d": "Aguardiente Antioqueño Amarillo Real.", "img": "img/aguardiente_antioqueno_amarillo_real.jpg"},
+  {"id": "aguardiente_amarillo_manzanares", "n": "Aguardiente Amarillo de Manzanares", "c": "cervezas", "f": "Caja 12 x 750 ml", "d": "Aguardiente Amarillo de Manzanares sin azúcar.", "img": "img/aguardiente_amarillo_manzanares.jpg"},
+  {"id": "cocacola_lata", "n": "Coca-Cola (lata)", "c": "bebidas", "f": "Caja 24 x 330 ml", "d": "Refresco Coca-Cola sabor original en lata.", "img": "img/cocacola_lata.jpg"},
+  {"id": "cocacola_zero_lata", "n": "Coca-Cola Zero (lata)", "c": "bebidas", "f": "Caja 24 x 330 ml", "d": "Refresco Coca-Cola Zero Azúcar en lata.", "img": "img/cocacola_zero_lata.jpg"},
+  {"id": "fanta_naranja_lata", "n": "Fanta Naranja (lata)", "c": "bebidas", "f": "Caja 24 x 330 ml", "d": "Refresco Fanta de naranja en lata.", "img": "img/fanta_naranja_lata.jpg"},
+  {"id": "fanta_limon_lata", "n": "Fanta Limón (lata)", "c": "bebidas", "f": "Caja 24 x 330 ml", "d": "Refresco Fanta de limón en lata.", "img": "img/fanta_limon_lata.jpg"},
+  {"id": "aquarius_limon_lata", "n": "Aquarius Limón (lata)", "c": "bebidas", "f": "Caja 24 x 330 ml", "d": "Bebida refrescante Aquarius de limón en lata.", "img": "img/aquarius_limon_lata.jpg"},
+  {"id": "aquarius_naranja_lata", "n": "Aquarius Naranja (lata)", "c": "bebidas", "f": "Caja 24 x 330 ml", "d": "Bebida refrescante Aquarius de naranja en lata.", "img": "img/aquarius_naranja_lata.jpg"},
+  {"id": "nestea_limon_lata", "n": "Nestea Limón (lata)", "c": "bebidas", "f": "Caja 24 x 330 ml", "d": "Té frío Nestea sabor limón en lata.", "img": "img/nestea_limon_lata.jpg"},
+  {"id": "nestea_maracuya_lata", "n": "Nestea Té Verde Maracuyá (lata)", "c": "bebidas", "f": "Caja 24 x 330 ml", "d": "Té verde frío Nestea sabor maracuyá en lata.", "img": "img/nestea_maracuya_lata.jpg"},
   {"id": "bombilla_corta_kunatai", "n": "Bombilla Corta Kuñataí", "c": "menaje", "f": "Unidad", "d": "Bombilla corta para mate o tereré.", "img": "img/bombilla_corta_kunatai.jpg"},
   {"id": "bombilla_larga_kunatai", "n": "Bombilla Larga Kuñataí", "c": "menaje", "f": "Unidad", "d": "Bombilla larga para mate o tereré.", "img": "img/bombilla_larga_kunatai.jpg"},
 ];
